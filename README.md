@@ -26,7 +26,7 @@ Copy the connection string provided.
 
 To use your MongoDB credentials in your project, you'll need to create a .env file with the following format:
 
-MONGODB_URI=mongodb://<username>:<password>@ac-n0zql8i-shard-00-00.59c8qoy.mongodb.net:27017,ac-n0zql8i-shard-00-01.59c8qoy.mongodb.net:27017,ac-n0zql8i-shard-00-02.59c8qoy.mongodb.net:27017/?ssl=true&replicaSet=atlas-2zmq4e-shard-0&authSource=admin&retryWrites=true&w=majority
+MONGODB_URI=mongodb://username:password@ac-n0zql8i-shard-00-00.59c8qoy.mongodb.net:27017,ac-n0zql8i-shard-00-01.59c8qoy.mongodb.net:27017,ac-n0zql8i-shard-00-02.59c8qoy.mongodb.net:27017/?ssl=true&replicaSet=atlas-2zmq4e-shard-0&authSource=admin&retryWrites=true&w=majority
 
 # Step 4: Run npm start in terminal 
 
